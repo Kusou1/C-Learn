@@ -12,8 +12,9 @@ int main()
     printf("这里我们填写中文参数:%d\n",a);
     printf("这里我们输出一个变量的值：%lu\n",sizeof(int)); 
     printf("float的字节数：%lu\n",sizeof(float));
-    printf("浮点数的最大值:%E",FLT_MAX);
     printf("double的字节数：%lu\n",sizeof(double));
+    printf("浮点数的最大值:%E",FLT_MAX);
+    printf("浮点数的最小值:%E",FLT_MIN);
 
     return 0; // 语句用于表示退出程序
 }
