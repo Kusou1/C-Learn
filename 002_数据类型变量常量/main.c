@@ -2,6 +2,11 @@
 
 #define PRICE 10; // 定义常量，定义的常量不能改变
 
+// #define WIDTH 1
+// #define HEIGHT 2
+// #define ENTER '\n'
+#define PI 3.1415926
+
 // 函数外面定义
 int x;
 int y;
@@ -75,15 +80,31 @@ int main()
     // printf("%d,%d\n", c1, c2); // 97,98
 
 
-    char c1;
-    char c2;
-    c1 = 'a';
-    c2 = 'b';
-    c1 = c1 - 32;
-    c2 = c2 - 32;
+    // char c1;
+    // char c2;
+    // c1 = 'a';
+    // c2 = 'b';
+    // c1 = c1 - 32;
+    // c2 = c2 - 32;
 
-    printf("%c,%c\n", c1, c2); // a,b ASCII码
-    printf("%d,%d\n", c1, c2); // 97,98
+    // printf("%c,%c\n", c1, c2); // a,b ASCII码
+    // printf("%d,%d\n", c1, c2); // 97,98
+
+    // ==========demo6 常量============
+
+    // int area;
+    // area = WIDTH * HEIGHT;
+    // printf("矩形area=%d\n", area);
+
+    const int HEIGHT = 10;
+    const int WIDTH = 20;
+    const char newLine = '\n';
+    const char ENTER = '\n';
+
+    int area;
+
+    area = WIDTH * HEIGHT;
+    printf("矩形area=%d\n", area);
 
     return 0; // 语句用于表示退出程序
 }
