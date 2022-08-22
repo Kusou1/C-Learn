@@ -3,6 +3,7 @@
         "*.cjson": "jsonc",
         "*.wxss": "css",
         "*.wxs": "javascript",
-        "float.h": "c"
+        "float.h": "c",
+        "stdio.h": "c"
     }
 }
