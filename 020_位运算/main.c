@@ -29,7 +29,7 @@ int main(void)
 	B = B ^ A;
 	A = A ^ B;
 
-	ChangeNum(1, 2);
+	ChangeNum(A, B);
 	printf("A = %d, B = %d\n", A, B);
 	return 0;
 }
