@@ -10,7 +10,7 @@ int main(void)
 	{
 		scanf("%s", myArray);
 		// strlen字符串长度
-		// 先给pArray分配对应大小的内存空间
+		// 先给pArray分配对应大小的内存空间,指针对应的类型
 		pArray[i] = (char*)malloc((strlen(myArray) +1) * sizeof(char));//length
 		// 字符串拷贝，这是深拷贝
 		strcpy(pArray[i], myArray);
