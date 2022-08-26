@@ -36,7 +36,7 @@ int main(void)
 	/*int i = 15;
 	long long result = JieChen(i);
 
-	printf("%d的阶乘为\n", i, result);*/
+	printf("%d的阶乘是%lld\n", i, result);*/
 
 	int i;
 	for (size_t i = 0; i < 10; i++)
