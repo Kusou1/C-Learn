@@ -4,6 +4,7 @@
         "*.wxss": "css",
         "*.wxs": "javascript",
         "float.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "iostream": "cpp"
     }
 }
