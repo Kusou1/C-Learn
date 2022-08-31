@@ -41,10 +41,10 @@ int myMin(int a, int b, int c)
 	return myMin(t, c);
 }
 
-//void outputA(int x); 	// ��������
-//void outputA(float x); 	// ��������
+//void outputA(int x); 	// 函数声明
+//void outputA(float x); 	// 函数声明
 
-
+// 内联函数，提高函数的执行效率
 inline int FuncInline(int a, int b)
 {
 	return a + b;
@@ -63,6 +63,7 @@ int* PointerFuncA()
 	return nullptr;
 }
 
+// 指针函数指返回值为指针的函数
 float* PointerFuncB()
 {
 	float* p = NULL;
@@ -83,9 +84,9 @@ int main(void)
 
 	{
 		//outputA(10);
-		//outputA(0.5f);     	// ���󣡲���ȷ�ĵ���
-		//output(int(0.5));   	// �������0
-		//output(float(0.5));  	// ���������0.5
+		//outputA(0.5f);     	// 错误！不明确的调用
+		//output(int(0.5));   	// 输出整形0
+		//output(float(0.5));  	// 输出浮点型0.5
 	}
 
 	{
