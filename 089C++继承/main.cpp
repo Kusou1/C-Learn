@@ -23,12 +23,12 @@ private:
 
 A::A()
 {
-	cout << "A��Ĺ��캯��" << endl;
+	cout << "A类的构造函数" << endl;
 }
 
 A::~A()
 {
-	cout << "A" << endl;
+	cout << "A类的析构函数" << endl;
 }
 
 
@@ -49,12 +49,12 @@ private:
 
 B::B()
 {
-	cout << "B��Ĺ��캯��" << endl;
+	cout << "B类的构造函数" << endl;
 }
 
 B::~B()
 {
-	cout << "B��Ĺ��캯��" << endl;
+	cout << "B类的析构函数" << endl;
 }
 
 class Animal
@@ -62,6 +62,7 @@ class Animal
 
 };
 
+// 继承自动物类
 class Cat : public Animal
 {
 
